@@ -1,0 +1,38 @@
+<div class="navoriginale"><span class="navispan"><a href="/admin/application/templates/fichier/intra.php">Dossier</a></span>
+    <span class="navispan"><a href="/admin/application/templates/Contrat/list_hote_model.php">Annuaire</a></span>
+    <span class="navispan"><a href="/admin/application/templates/clients/list_client_model.php">Client</a></span>
+    <span class="navispan"><a href="/admin/application/templates/event/liste_event.php">SNAP Event</a></span>
+    <span class="navispan"><a href="/admin/application/templates/factures/facture.php">Facture</a></span>
+    <span class="navispan"><a href="/admin/application/templates/prestation/">Prestation</a></span>
+    <span class="navispan"><a href="/admin/application/templates/comptabilite">Comptabilité</a></span>
+    <span class="navispan"><a href="/?controller=user&action=deconnecter">Se déconnecter</a></span></div>
+
+<div class="navburger">
+    <span class="navispan"><a href="/admin/application/templates/fichier/intra.php">Dossier</a></span>
+    <span class="navispan"><a href="/admin/application/templates/Contrat/list_hote_model.php">Annuaire</a></span>
+    <span class="navispan"><a href="/admin/application/templates/clients/list_client_model.php">Client</a></span>
+    <span class="navispan"><a href="/admin/application/templates/event/liste_event.php">SNAP Event</a></span>
+    <span class="navispan"><a href="/admin/application/templates/factures/facture.php">Facture</a></span>
+    <span class="navispan"><a href="/admin/application/templates/prestation/">Prestation</a></span>
+    <span class="navispan"><a href="/admin/application/templates/comptabilite">Comptabilité</a></span>
+    <span class="navispan"><a href="?controller=user&action=deconnecter">Se déconnecter</a></span>
+</div>
+
+<button type="button" id="burger">
+    <span></span>
+    <span></span>
+    <span></span>
+</button>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script></script>
+<script>
+$(function(){
+    $('#burger').on('click', function(){
+        if($('.navburger').is(':hidden')){
+            $('.navburger').css('display','block');
+        }else{
+            $('.navburger').css('display','none');  
+        }
+    });
+});
+</script>

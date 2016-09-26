@@ -1,0 +1,182 @@
+#description p{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #b8b8b8;
+    font-size:18px;
+    line-height: 32px;
+    text-align: center;
+}
+#temoignage {
+    text-align: center;
+}
+#temoignage p{
+   text-align: center;
+   font-family: Georgia,serif;
+   font-size: 22px;
+   font-style: italic;
+   line-height: 24px;
+   padding-bottom: 48px;
+   color:#888888;
+   display:inline-block;
+   position:relative;
+}
+
+#temoignage p:before{
+    content: url(../images/left-quotes.png);
+    position : relative;
+    top:10px;
+    right: 5px;
+}
+#temoignage p:after{
+    content: url(../images/right-quotes.png);
+     position : relative;
+    top:10px;
+    left: 5px;
+}
+
+#temoignage p span.signature{
+    position:absolute;
+    bottom:0px;
+    right:32px;
+}
+
+#etapes li.etape{
+  
+    display:inline-block;
+    float:left;
+    width: 300px;
+    text-align: center;
+    
+}
+#etapes li.etape>div h2 h3 img{
+    text-align: center;
+}
+
+#etapes h2{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+#etapes h3{
+    color:#e06c4a;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-top: 10px;
+}
+
+.colonne{
+    display:inline-block;
+    float:left;
+    margin-left: 10px;
+    margin-right:10px;
+    
+    
+}
+.colonne #prochaines-sessions{
+    display:inline-block;
+    float:right;
+    height: 620px;
+    width: 300px;
+    margin-left: 10px;
+    margin-right:10px;
+    
+}
+bloc_vedette {
+    display: inline-block;
+    float: left;
+}
+#la-selection {
+    width: 620px;
+}
+#prochaines-sessions {
+    width: 300px;
+}
+
+#la-selection>div {
+    width: 220px;
+    float: left;
+    margin-right: 10px;
+}
+#la-selection>div+div {
+    width: 380px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+#la-selection>div>img {
+    width: 100%;
+}
+
+#en-vedette h2 {
+    color: #484848;
+    font-weight: normal;
+    font-size: 26px;
+    text-align: left;
+}
+
+#en-vedette {
+    color: #6E6E6E;
+    font-size: 16px;
+    padding: 15px 0px;
+}
+
+#la-selection img+div {
+    font-style: italic;
+    font-size: 12px;
+}
+#la-selection p {
+    line-height: 26px;
+}
+#la-selection h3 {
+    background-color: #E06C4A;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    padding: 5px 15px;
+    line-height: 26px;
+    margin: 12px 0px;
+}
+
+#prochaines-sessions li {
+    position: relative;
+    font-size: 18px;
+    color: #6E6E6E;
+    padding: 5px 0;
+    border-bottom: 1px solid #CECECE;
+    margin-bottom: 2px;
+}
+#prochaines-sessions li a:link{
+    color: #6E6E6E;
+}
+#prochaines-sessions li a:visited{
+    color: #6E6E6E;
+}
+#prochaines-sessions li>p{
+    font-size: 16px;
+    margin-bottom: 5px;
+    line-height: 20px;
+}
+#prochaines-sessions li>div.infos {
+    display: none;
+    width: 50%;
+    background: rgba(0,0,0,0.7);
+    color: white;
+    height: 60px;
+    border-radius: 10px 10px;
+    font-size: 12px;
+    padding: 10px;
+    position: absolute;
+    left: 100%;
+    top: 0px;
+}
+#prochaines-sessions li:hover>div.infos {
+    display: block;
+}
+
+#prochaines-sessions li>h3 {
+    background: url(../images/right-arrow.png) no-repeat top right;
+    padding: 10px 0;
+}
